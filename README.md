@@ -9,4 +9,7 @@ ___
 ## Results
 33 금지 기능 없는 것 외에는 실제 오목 게임이랑 거의 비슷하게 구현하였습니다.
 
+게임에 대한 자세한 설명은 '오목앱_권수빈.pptx' 를 참고하여 주세요.
+
+
 ![image](https://github.com/user-attachments/assets/9c8dd680-be38-4009-b2eb-fcf5e8255f33)
