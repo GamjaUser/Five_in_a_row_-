@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/winnerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Winner"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <!-- 시간 및 차례 표시 텍스트 -->
+    <TextView
+        android:id="@+id/turnAndTimerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now, Black turn"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="@android:color/black" />
+
+    <!-- GomokuBoardView를 화면 중앙에 배치, 크기를 15x15 셀에 맞춤 -->
+    <com.example.pro2023202001.GomokuBoardView
+        android:id="@+id/gomokuBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:minWidth="300dp"
+        android:minHeight="300dp" />
+</LinearLayout>
